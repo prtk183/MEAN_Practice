@@ -1,0 +1,24 @@
+flow:
+
+1.  landing page:
+	- will display table allways
+	 a. opeartion bar having CRUD tags/links
+	 b. i fream will be loaded in display fream
+	 c. after clicking crud tag it will load CRUD.html page having table
+	 d. table page will always loaded
+	 
+	- steps
+	1. crud.html
+	2. table/ landing page 
+	3. links--tags
+
+12 pm all ground is set
+1 to findout rendering table..
+2 to display the table 
+3. got admin rights.. see aftewarsd
+4.
+5. did nothing, tried installing mysql
+6. started angular from w3
+7. 
+8.
+9.

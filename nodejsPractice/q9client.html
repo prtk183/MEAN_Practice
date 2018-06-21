@@ -1,0 +1,54 @@
+<html>
+<head></head>
+<link rel="stylesheet" href="mycss.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script>
+var app = angular.module('myApp', []);
+app.controller('customersCtrl', function($scope, $http) {
+    $http.get("customers.php")
+    .then(function (response) {$scope.names = response.data.records;});
+});
+</script
+<body>
+<div id ="head">
+		
+		Student Pojo
+		
+	</div>
+	<div id ="menu">
+	<h4 margin-left: 22px;>CRUD Menu</h4>
+	 <ul>
+	 <li> <a href="AddStudent.html">Add </a></li>
+	 <li> <a href="UpdateStudent.html">Update</a> </li>
+	 <li> <a href="DeleteStudent.html">Delete </a></li>
+	 </ul>	
+	</div>
+	<div id="mydisplay">
+	<html>
+	<head></head>
+	<body>
+	<div ng-app="myApp" ng-controller="customersCtrl">
+	<table style="margin-top:20px; margin-left:20px;">
+	<tbody>
+	<tr>
+	<th>StudentName</th>
+	<th>StudentRollNo</th>
+	<th>StudentMarks</th>
+	</tr>
+	<tr>
+		<td>#{items}</td>
+		<td>{#items}</td>
+		<td>{#items}</td>
+	</tr>
+	</tbody>
+	</table>
+	
+	</body>
+	</html>
+	</div>
+	<div id ="footer">
+	    visit again
+	</div>
+
+</body>
+</html>

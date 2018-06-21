@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+#head{
+		    color:white;
+			background-color:black;
+			text-align:center;
+			padding:10px;
+		
+			
+		}
+		#menu{
+		    height : 500px;
+			width : 200px;
+			line-height : 50px;
+			text-size:200%;
+			background-color: #eeeeee;
+			float:left;
+		}
+		#mydisplay{
+		    height : 500px;
+			width:500px;
+			line-height : 500px;
+			text-size:200%;
+			float:left;
+		}
+		#footer{
+			color:white;
+			background-color:black;
+			text-align:center;
+			padding:10px;
+			clear:both;
+		}
